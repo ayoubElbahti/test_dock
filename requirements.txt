@@ -1,1 +1,6 @@
+instatest
+beautifulsoup4==4.12.3
+cloudscraper==1.2.71
+requests==2.31.0
+urllib3==2.2.1
 selenium==4.19.0
