@@ -11,7 +11,7 @@ import time
 def create_remote_driver(remote_url):
     print('create driver')
     # Create a remote WebDriver instance
-    options = webdriver.FirefoxOptions()
+    options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     driver = webdriver.Chrome(options=options)
